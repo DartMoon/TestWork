@@ -1,0 +1,33 @@
+//HEADER
+header {
+	background: #333;
+	padding: 52px 0px 9px;
+}
+
+.navbar-brand {
+	font-size: 60px;
+	color: #fff;
+	letter-spacing: -2.4px;
+
+	padding: 0;
+	&:hover {
+		color: #fff;
+	}
+}
+
+.nav-list {
+	padding-top: 17px;
+	&__item {
+	}
+	&__link {
+		color: #fff;
+		padding: 0px 0 0 32px;
+		&_active {
+			color: #00aeef;
+		}
+		&:hover {
+			color: #00aeef;
+			text-decoration: none;
+		}
+	}
+}

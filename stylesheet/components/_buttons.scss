@@ -1,0 +1,18 @@
+.bttn {
+	display: block;
+	width: 100%;
+	text-transform: uppercase;
+	&__get-more {
+		max-width: 230px;
+		height: 40px;
+		font-size: 18px;
+
+		border: 0;
+		background: #0076a3;
+		margin: 48px auto 5px;
+
+		-webkit-box-shadow: inset 0px 0px 5px 0px rgba(0,0,0,0.75);
+		   -moz-box-shadow: inset 0px 0px 5px 0px rgba(0,0,0,0.75);
+		        box-shadow: inset 0px 0px 5px 0px rgba(0,0,0,0.75);
+	}
+}

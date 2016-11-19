@@ -1,0 +1,35 @@
+// Create by Kirill Storozhenko
+
+//@import 'abstracts/placeholders';
+
+//My plugin style
+@import 'vendors/_bootstrap';
+//
+@import 'base/_reset';
+@import 'base/_typography';
+
+//
+body {
+	font-family: "MyriadProRegular";
+}
+
+.wrap {
+	max-width: 970px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+hr {
+	border-top: 3px dotted #eeeeee;
+	margin: 36px 0 18px;
+}
+
+@import 'layout/_header';
+//
+@import 'components/_buttons';
+//
+@import 'pages/_index';
+
+@import '_media';
+
+
